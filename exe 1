@@ -1,1 +1,7 @@
-exe 1
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv("/workspaces/Repo_ACCPythonAnalytics20231102/datasets/churn_prediction.csv")
+
+# print(df.head(10))
+# df.shape[0]
